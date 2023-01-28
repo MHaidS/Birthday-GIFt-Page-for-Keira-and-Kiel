@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  background: linear-gradient(#96c6ea, #e9b7ce);
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0px 0px 1px black;
+}
+
+#bff-img {
+  width: 250px;
+  border-radius: 50%;
+  border: 6px solid #efb0c9;
+  margin-bottom: 10px;
+}
+
+#bday-age {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+#bday-date {
+  margin: 0;
+  background: #efb0c9;
+  padding: 5px 10px;
+  /* margin-top:  10px; */
+  border-radius: 5px;
+}
+
+/* Turn the header into a flexbox */
+#header {
+  display: flex;
+  /* forces elements to be in 1 row */
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+
+  /* background-image: url("https://images.pexels.com/photos/1178562/pexels-photo-1178562.jpeg?auto=compress&cs=tinysrgb&w=800"); */
+
+  background-image: url("https://images.pexels.com/photos/6765533/pexels-photo-6765533.jpeg?auto=compress&cs=tinysrgb&w=800");
+
+  background-size: cover;
+  /* squeezes our large image to current width available*/
+}
+
+#gift-img-happy:hover {
+  background-image: url("images/happy.webp");
+}
+
+#gift-img-hot:hover {
+  background-image: url("images/hot.webp");
+}
+
+#gift-img-genius:hover {
+  background-image: url("images/genius.webp");
+}
+
+#gift-img-awesome:hover {
+  background-image: url("images/awesome.webp");
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("images/cheers3.webp");
+}
+
+#footer {
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: white;
+}
